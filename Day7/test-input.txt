@@ -1,0 +1,21 @@
+$ cd /
+$ ls
+dir aParentDir
+dir anotherParentDir
+12345 parentFile
+$ cd aParentDir
+$ ls
+dir aSubDir
+8675309 aSubFile
+$ cd aSubDir
+$ ls
+10 aSubSubFile
+$ cd ..
+$ cd ..
+$ ls
+dir aParentDir
+dir anotherParentDir
+12345 parentFile
+$ cd anotherParentDir
+$ ls
+41 itWorks
